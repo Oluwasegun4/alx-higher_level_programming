@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-   import sys
+    import sys
     args = len(sys.argv) - 1
     result = 0
     for i in range(args):
