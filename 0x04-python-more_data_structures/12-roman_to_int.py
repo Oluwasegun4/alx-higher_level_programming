@@ -6,5 +6,5 @@ def roman_to_int(roman_string):
     digits = {'M': 1000, 'D': 500, 'C': 100, 'L': 50, 'X': 10, 'V': 5, 'I': 1}
     for roman in reversed(roman_string):
         integer = digits[roman]
-        total += integer if total < arabic * 5 else -integer
+        total += integer if total < integer * 5 else -integer
     return total
